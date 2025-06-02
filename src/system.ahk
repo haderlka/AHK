@@ -139,13 +139,9 @@ ActivateOrLaunchClass("CabinetWClass", "explorer.exe")
 return
 
 ; ################################################################################
-;
 ; Open additional File Explorer
-;
-; via [Windows+e]
 ; ################################################################################
 ^#e::
 Run, explorer.exe
 return
-	
 	
